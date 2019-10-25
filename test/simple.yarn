@@ -1,0 +1,46 @@
+title: Start
+---
+A: Hey, I'm a character in a script!
+B: And I am too! You are talking to me!
+-> What's going on
+    A: Why this is a demon of the script system!
+    B: And you're [i]in[/i] it!
+-> Super secret hidden option <<if $someBool is true>>
+    A: This option shouldn't appear
+    B: If it does, its a bug, and you should tell a dev
+-> Um ok
+A: How delightful!
+B: What would you prefer to do next?
+[[Leave|Leave]]
+[[Learn more|LearnMore]]
+===
+title: Leave
+---
+A: Oh, goodbye!
+B: You'll be back soon!
+[[FinalStatement]]
+===
+
+title: LearnMore
+---
+A: [color=red]HAHAHA[/color]
+[[FinalStatement]]
+===
+
+title: FinalStatement
+tag: final, leaving, meta
+---
+[s]You leave the mysterious [b]A[/b] and [b]B[/b]...[/s]
+===
+
+<<if $test>>
+    test
+<<elseif $test2>>
+    test2
+<<endif>>
+
+-> testing
+    -> more more
+        -> stack them to the hevens
+            -> Stack them to the hevens!
+                -> I could write a song called stack them to the hevens!

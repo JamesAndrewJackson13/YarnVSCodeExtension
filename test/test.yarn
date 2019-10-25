@@ -1,0 +1,10 @@
+title: helloWorld
+tags: testing, intro
+---
+A: I'm writting a silly node scene
+B: This syntax highlighting is pretty neat!
+-> Even options have it?
+    A: MMHM!
+    B: And it auto-indented
+[[nextNode]]
+===
