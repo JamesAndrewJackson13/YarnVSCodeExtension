@@ -1,0 +1,83 @@
+{
+    "comments": {
+        "blockComment": [
+            "/*",
+            "*/"
+        ]
+    },
+    // symbols used as brackets
+    "brackets": [
+        [
+            "<<",
+            ">>"
+        ],
+        [
+            "[[",
+            "]]"
+        ],
+        [
+            "(",
+            ")"
+        ]
+    ],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        [
+            "<<",
+            ">>"
+        ],
+        [
+            "[[",
+            "]]"
+        ],
+        [
+            "(",
+            ")"
+        ],
+        [
+            "\"",
+            "\""
+        ],
+        [
+            "'",
+            "'"
+        ]
+    ],
+    // symbols that that can be used to surround a selection
+    "surroundingPairs": [
+        [
+            "<<",
+            ">>"
+        ],
+        [
+            "[[",
+            "]]"
+        ],
+        [
+            "(",
+            ")"
+        ],
+        [
+            "\"",
+            "\""
+        ],
+        [
+            "'",
+            "'"
+        ]
+    ],
+    "folding": {
+        "markers": {
+            "start": "^\\s*?---\\s*?$",
+            "end": "^\\s*?===\\s*?$"
+        },
+        "__markers": {
+            "start": "^\\s*?<<\\s*?if.*?>>\\s*?$",
+            "end": "^\\s*?<<endif>>\\s*?$"
+        }
+    },
+    "indentationRules": {
+        "increaseIndentPattern": "^\\s*?(<<if.*?>>)|(<<elseif.*?>>)|(->.*?)\\s*?$",
+        "decreaseIndentPattern": "^\\s*?(<<endif>>)|(<<elseif.*?>>)\\s*?$"
+    }
+}

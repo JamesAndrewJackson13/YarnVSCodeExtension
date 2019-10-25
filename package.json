@@ -1,0 +1,36 @@
+{
+    "name": "narrativeyarn",
+    "displayName": "NarrativeYarn",
+    "description": "Adds support for the Yarn Narrative language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "yarn",
+                "aliases": [
+                    "Yarn",
+                    "yarn"
+                ],
+                "extensions": [
+                    ".yarn",
+                    ".yarn.txt"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "yarn",
+                "scopeName": "source.yarn",
+                "path": "./syntaxes/yarn.tmLanguage.json"
+            }
+        ]
+    },
+    "dependencies": {}
+}
